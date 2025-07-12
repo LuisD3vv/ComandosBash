@@ -1,0 +1,12 @@
+{
+	"folders": [],
+	"settings": {
+		"files.associations": {
+			"*.rmd": "markdown",
+			"stdio.h": "c",
+			"vector": "c",
+			"string.h": "c",
+			"stdlib.h": "c"
+		}
+	}
+}

@@ -1,0 +1,80 @@
+EJERCICIOS BASH – NIVEL INTERMEDIO / AVANZADO
+1. Buscar palabra en un archivo
+
+En libros.txt, cuenta cuántas líneas contienen la palabra "capítulo" sin importar mayúsculas.
+2. Extraer campos de un CSV
+
+Tienes un archivo clientes.csv con este formato:
+
+nombre,apellido,edad,país
+
+Muestra solo los nombres y edades.
+3. Comprimir carpeta
+
+Crea un archivo .tar.gz que contenga la carpeta documentos/. Luego, verifica que fue creado correctamente listando su contenido.
+4. Buscar archivos grandes
+
+Encuentra todos los archivos mayores a 10MB en tu carpeta personal y guarda las rutas en grandes.txt.
+5. Archivos más pesados
+
+Muestra los 5 archivos más grandes del directorio actual (no carpetas), ordenados de mayor a menor.
+6. Copia de seguridad
+
+Copia todos los archivos .txt de la carpeta notas/ a una carpeta respaldo/ con la fecha actual en el nombre, como respaldo/2025-06-20/.
+7. Eliminar duplicados
+
+De un archivo emails.txt, elimina las líneas duplicadas y ordénalas alfabéticamente.
+8. Contar palabras
+
+Cuenta cuántas palabras hay en todos los archivos .md del directorio actual.
+9. Filtrar por longitud
+
+Muestra solo las líneas de más de 50 caracteres en notas.txt.
+10. Limpiar líneas vacías
+
+Elimina todas las líneas vacías del archivo tarea.txt y guarda el resultado en tarea_limpia.txt.
+11. Contar scripts
+
+Cuenta cuántos archivos .sh hay en el directorio actual y subcarpetas.
+12. Palabras más usadas
+
+En libro.txt, muestra las 10 palabras más repetidas, ordenadas de más a menos.
+🔸 EJERCICIOS CON SUSTITUCIÓN DE COMANDOS $()
+1. Contar líneas con una palabra
+
+Cuenta cuántas veces aparece "capítulo" en libros.txt (sin importar mayúsculas) y guarda el resultado en una variable coincidencias.
+
+coincidencias=$(# tu comando aquí)
+
+2. Tamaño total de .log
+
+Calcula el tamaño total de todos los archivos .log y muestra:
+
+"El tamaño total de los logs es: XXMB"
+
+Usa $() para obtener el número.
+3. Copia con fecha actual
+
+Copia notas.txt a un nuevo archivo con el nombre notas_YYYY-MM-DD.txt, usando la fecha actual.
+4. Contar archivos grandes
+
+Encuentra archivos mayores a 5MB y guarda la cantidad total en una variable. Muestra:
+"Se encontraron X archivos grandes."
+5. Archivo más grande
+
+Muestra el nombre del archivo más grande del directorio actual.
+6. Comprimir con nombre por fecha
+
+Empaqueta documentos/ en backup_YYYYMMDD.tar.gz, usando la fecha en el nombre.
+7. Guardar errores con fecha
+
+Busca la palabra "error" en todos los archivos .txt y guarda el resultado en errores_YYYY-MM-DD.txt.
+8. Contar líneas de archivo dado
+
+Pide al usuario el nombre de un archivo y muestra cuántas líneas tiene, usando $().
+9. Contar .sh en variable
+
+Cuenta cuántos .sh hay y guarda el número en una variable llamada scripts, luego imprímela.
+10. Línea más larga
+
+Encuentra la línea más larga (por número de caracteres) en notas.txt y guárdala en una variable.

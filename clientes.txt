@@ -1,0 +1,7 @@
+nombre,apellido,edad,pais
+Luis,Aguilar,21,Mexico
+Eduardo,Soberanes,23,Mexico
+Valeria,Quintero,20
+William,Hernandez,20
+Sabina,Tapia,20
+Samir,Gaxiola,23
