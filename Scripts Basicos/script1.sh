@@ -1,6 +1,7 @@
 #crontab es un ejecutador de tareas automatico en sistemas unix/linux de forma repetida
 #!/bin/bash
 
+#Aqui estamos utilizando la expansion por comandos, es muy util para scripts
 nombre=$(whoami)
 fecha=$(date +%Y-%m-%d)
 host=$(hostname)
