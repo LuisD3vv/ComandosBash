@@ -1,0 +1,20 @@
+# Comandos para vagrant
+
+
+  vagrant init >>iso o box
+vagrant up >>para levantar el servicio
+vagrant halt >> para pararlo
+vagrant destroy para eliminar una vm y con -f, lo forzas
+vagrant  ssh >>  para iniciar sesion despues de usar up
+vagrant reload >> reiniciar maquinas virtual y vagrantfile
+vagrant global-status >> ver el estado actual
+vagrant global-status --prune 
+vagrant status >> ver
+vagrant provision >> probar los recursos y comandos que se le han dado (comandos bash, etc, y dependencias)
+free -m >> ver ram
+ifcongif
+ip addr show
+
+# Los cambios en el archivo en pipelines
+
+|vb| son como se debera llamar cada que utilicemos una configuracion del  mismo grupo que vb7

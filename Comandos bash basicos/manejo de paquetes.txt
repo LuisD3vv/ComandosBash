@@ -1,0 +1,33 @@
+# DPKG, APT para debian
+
+
+#importante utilizar estos comandos al inicio de una instalacion
+sudo apt update && apt upgrade
+
+APT:
+-Update actualizar
+-Search buscar un paquete en los repositorios
+-Show informacion sobre un paquete
+-List paquetes disponibles segn ciertos criterios
+-Install instalar (con -y nos saltamos las confimaciones)
+-Remove |  elimina el paquete solamente
+-Purge | elimina el paquete y sus configuraciones
+
+
+DPKG:
+Opciones 
+-i instalar un paquete
+-r eliminar un paquete
+-l listar paquetes
+-s mostrar información de un paquete instalado
+-L mostrar archivos instalados por paquete
+
+
+# Reparar dependencias rotas
+
+1 sudo dpkg -i archivo.deb - instalar
+2 sudo apt --fix-broken install - en caso de que salga mal o falten dependencias
+
+El dpkg no resulve dependencias,
+por lo que puede instalar paquetes con errores,
+asi que con fix podemos arrerglar ese problemas.

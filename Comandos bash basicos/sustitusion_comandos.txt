@@ -1,0 +1,9 @@
+# Susiticion o expansion de comandos o pipelines
+
+
+
+# la salida de un comando se convierte en el parametro de otra
+muy muy util para scritps
+
+ echo $(DATE) con parentisis
+ echo `date` con backticks
