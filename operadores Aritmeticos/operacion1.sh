@@ -10,5 +10,6 @@ echo -n "La resta es  $((n1 - n2))"
 echo -n "La division es  $((n1 / n2))"
 echo -n "La multiplicacion es  $((n1 * n2))"
 
+echo "hecho por lissandrito"
 
 # para el numero aleatorio es (($RANDOM%10))
