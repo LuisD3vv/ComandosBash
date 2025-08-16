@@ -7,3 +7,7 @@ fecha=$(date +%Y-%m-%d)
 host=$(hostname)
 
 echo "Hola, $nombre. Hoy es $fecha y estás usando el equipo $host."
+
+# Al declarar variables estan debend e estar pegadas a su valor
+
+numero=21
