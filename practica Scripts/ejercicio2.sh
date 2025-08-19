@@ -1,2 +1,2 @@
 #!/bin/bash
-echo Eres $USER con el shell $SHELL
+echo Eres $USER usando $SHELL desde $ROOT

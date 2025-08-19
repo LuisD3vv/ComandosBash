@@ -13,6 +13,9 @@ echo "numero uno =>" $numero1 # o
 echo "numero dos =>" ${numero2}
 
 echo "El Script usa" $# "parametros"  # todos los parametros desde onsola
-echo "Los tres primeros son: " $1, $2, $3 # variables por defecto
+echo "Los tres primeros son: " $1, $2, $3 # variables por defecto de la terminal como parametros 0(nombre del archivo)
 
 # La diferencia entre usar comillas simples y dobles es que las dobles interpretan el contenido y las simples solo interpretan texto
+
+echo "numero uno =>" $numero1 
+echo 'numero uno => $numero1' # o  
