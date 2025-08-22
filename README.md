@@ -3,25 +3,31 @@
 1. git init
 2. git add .
 3. git add -f
-4. git reset . -hard -soft -mixed
-5. git commit
-6. git checkout -- . recuperar ultima version de commit
-7. git log --online --graph --pretty
-8. git commit --amend
-9. git checkout -b rama-heroes
-10. git checkout main
-11. git branch -d rama-heroes
-12. git push 
-13. git commit -am
-14. git status --ignored
-15. git diff
-16. git reflog
-17. git remote add origin
-18. git remote remove  origin
-19. git pull (--force)
-20. git push (--force)
-21. git fetch
-22. git branch -M
-23. git rm
-24. git merge
-25. 
+5. git reset . -hard -soft -mixed
+6. git commit
+7. git checkout -- . recuperar ultima version de commit
+8. git log --online --graph --pretty
+9. git commit --amend
+10. git checkout -b rama-heroes
+11. git checkout main
+12. git branch -d rama-heroes
+13. git push 
+14. git commit -am
+15. git status --ignored
+16. git diff
+17. git reflog
+18. git remote add origin
+19. git remote remove  origin
+20. git pull (--force)
+21. git push (--force)
+22. git fetch
+23. git branch -M
+24. git rm
+25. git merge
+26. git config --global user.name "username"
+27. git config --global user.email "userEmail"
+28. git alias
+29. git show
+30. git stash
+31. git stash apply
+32. git stash pop
