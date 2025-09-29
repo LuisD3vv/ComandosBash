@@ -1,0 +1,8 @@
+Este es un texto de prueba
+para comprobar la lectura
+de la redireccion y desde
+el archivo
+-----------
+Aqui le estamos ingresando
+mas texto desde cat en la
+consola
