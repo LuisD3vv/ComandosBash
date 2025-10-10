@@ -108,7 +108,7 @@ just_path=${path_archivo %/*}
 echo "$just_path"
 #La concidencia más larga
 linea_archivo="ruta:/home/usuario/directorio/tarea/archivo.txt"
-etiqueta=${linea_archivo % %/*}
+etiqueta=${linea_archivo %%/*}
 
 
 

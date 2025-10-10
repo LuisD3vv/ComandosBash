@@ -1,9 +1,8 @@
 #!/bin/bash
 
-
 # Los scripts pueden recibuir parametros desde la consola
 
-# Todos los parametros se toman con $ este simbolo acompa;ada  y el numero del argumento
+# Todos los parametros a nivel argumento se toman con $ este simbolo acompa;ada y el numero del argumento
 
 # El $0 es el nombre del archivo
 
