@@ -100,11 +100,11 @@ nombre_archivo=${linea_archivo##*/}
 #Eliminar desde el final
 #La concidencia más corta
 path_archivo="/home/usuario/directorio/tarea/archivo.txt"
-just_path=${path_archivo %/*}
+just_path=${path_archivo%/*}
 echo "$just_path"
 #La concidencia más larga
 linea_archivo="ruta:/home/usuario/directorio/tarea/archivo.txt"
-etiqueta=${linea_archivo %%/*}
+etiqueta=${linea_archivo%%/*}
 
 
 
@@ -114,10 +114,16 @@ etiqueta=${linea_archivo %%/*}
 texto="CADENA DE EJEMPLO"
 minusculas=${texto,,}
 
-echo "$minusculas"
+echo "Cadena en minusculas: $minusculas"
 
-De minúsculas a mayúsculas
+#De minúsculas a mayúsculas
 texto="cadena de ejemplo"
-mayusculas=${textoˆˆ}
+mayusculas=${texto^^}
 
-echo "$mayusculas"
+echo "Cadena en mayusculas $mayusculas"
+
+# podemos hacer algo asi, cambiar las apariciones que esten dentro de un rango o lista
+ip='192.168.10.158'
+echo "Sustituyendo las apariciones totales de ciertos numeros por un caracter"
+echo ${ip//[12345]/x}
+echo ${ip//?1/x}
