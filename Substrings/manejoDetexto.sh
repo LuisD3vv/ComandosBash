@@ -55,13 +55,11 @@ echo $pos
 echo $ne
 echo $ejer
 
-
 # Reemplazar texto solo la primera coincidencia
 
 textoOriginal="Ejemplo original"
 reemplazo=${textoOriginal/"Eje"/"culo"}
 echo $reemplazo
-
 
 # Reemplazar texto global
 textoOriginal="Introducción a Bash es fácil de aprender, Bash es útil en el
@@ -71,7 +69,6 @@ echo $reemplazo
 
 # Si el es espacio a remplazar no se llena, se toma como elementio vacio y se elimina
 
-
 textoOriginal="Introducción a Bash es fácil de aprender, Bash es útil en el
 manejo de Linux."
 reemplazo=${textoOriginal/"Noe"} # lo mismo con la doble barra // todas las coincidencias
@@ -79,7 +76,6 @@ echo $reemplazo
 
 
 # Manejo de texto, eliminacion
-
 <<ELIMINAR
 En bash hay opciones específicas para eliminar contenido de una
 cadena de texto

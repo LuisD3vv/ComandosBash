@@ -31,3 +31,17 @@
 30. git stash
 31. git stash apply
 32. git stash pop
+
+
+
+### Mini sistema de respaldo inteligente (intermedio-avanzado)
+
+Un script que:
+
+Copie archivos modificados en las últimas 24 h a una carpeta de respaldo.
+
+Registre cada acción en un log con fecha y hora.
+
+Permita restaurar un respaldo anterior.
+
+Extra: incluir opciones como --backup, --restore, --status.
