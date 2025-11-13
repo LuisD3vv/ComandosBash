@@ -1,0 +1,7 @@
+"2025-11-12 10:01:05 INFO Usuario 'Alice' inició sesión."
+"2025-11-12 10:02:10 WARNING Conexión a base de datos lenta (450ms)."
+"2025-11-12 10:03:30 ERROR Fallo crítico en el servicio de autenticación."
+"2025-11-12 10:05:01 INFO Tarea de backup completada."
+"2025-11-12 10:06:45 WARNING Memoria del servidor al 85% de uso."
+"2025-11-12 10:07:22 ERROR Disco principal casi lleno (98% usado)."
+"2025-11-12 10:08:15 INFO Se reinició el servicio web."

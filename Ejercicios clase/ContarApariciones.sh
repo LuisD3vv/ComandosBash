@@ -93,5 +93,3 @@ echo "Numeros: $numeros"
 echo "Fecha actual: - $fecha -"
 echo "Hecho por Luis Aguilar Soberanes | FIC - Ciencia de datos - GPO - 2-1"
 echo "=================================================="
-
-

@@ -1,0 +1,15 @@
+2025-11-10 09:00:01 [INFO] Iniciando el servicio de procesamiento de datos.
+2025-11-10 09:00:15 [WARNING] La caché está a punto de alcanzar su límite, se recomienda revisar.
+2025-11-10 09:00:22 [INFO] Conexión a la base de datos establecida correctamente.
+2025-11-10 09:00:30 [ERROR] Fallo crítico al procesar el archivo ID: 1001. Permisos denegados.
+2025-11-10 09:00:45 [INFO] Tarea de limpieza programada ejecutada sin incidentes.
+2025-11-10 09:01:03 [WARNING] El usuario 'admin' intentó acceder a una ruta protegida sin credenciales.
+2025-11-10 09:01:10 [ERROR] Timeout en el servidor de autenticación. Intentando reconexión...
+2025-11-10 09:01:25 [INFO] Se completó la sincronización de la configuración del sistema.
+2025-11-10 09:01:40 [ERROR] Fallo al escribir en el disco. Espacio insuficiente. Contactar a soporte.
+2025-11-10 09:02:05 [INFO] El servidor está operando a su capacidad normal.
+2025-11-10 09:02:18 [WARNING] Se detectó una latencia alta en la respuesta de la API externa.
+2025-11-10 09:02:30 [INFO] Proceso de verificación finalizado.
+2025-11-10 09:02:45 [ERROR] Excepción no manejada: NullPointerException en el módulo principal.
+2025-11-10 09:02:50 [WARNING] El archivo de configuración 'config.yaml' no pudo ser cargado.
+2025-11-10 09:03:00 [INFO] Preparando para el apagado seguro del servicio.

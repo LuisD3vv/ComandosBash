@@ -1,0 +1,3 @@
+ALERTA: [Desatornillador] tiene un stock de [9] unidades.
+ALERTA: [Pinzas] tiene un stock de [1] unidades.
+ALERTA: [Taladro] tiene un stock de [10] unidades.

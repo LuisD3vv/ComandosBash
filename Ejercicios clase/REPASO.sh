@@ -56,7 +56,6 @@ lui2=$(ls -R > salida.txt 2>&1 error.txt)
 
 buscar=$(find /home/lissandro/Descargas -name "*.txt")
 
-
 # ejemplo real, busca en el directorio actual todo lo que termine en sh y
 
 # si hay coindicencias le cambia el nombre

@@ -23,3 +23,19 @@ case $dia in
     ;;
 esac 
 
+# Tambien permite la comparacion de patrones complejos
+
+echo "Introduce una cadena"
+read -p ">> " input
+
+case $input in
+    [0-9]*)
+    echo "La entrada es numerica"
+    ;;
+    [a-z]*)
+    echo "La entrada no es numerica"
+    ;;
+    *)
+    echo "Entrada no reconocida"
+    ;;
+esac

@@ -1,0 +1,5 @@
+Error: Conexión fallida al puerto 8080.
+Warning: El disco duro tiene 70% de ocupacion.
+Info: Proceso iniciado con PID 1234.
+Error: Permiso denegado al archivo de configuracion.
+Info: Operacion completada en 5 segundos.
