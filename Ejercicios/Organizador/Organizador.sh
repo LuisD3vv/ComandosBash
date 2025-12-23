@@ -22,19 +22,12 @@ EJERCICIO
 
 # El -r es para que read interprete las barras invertidas (con s es para contrase;a)
 
-echo -n "Ingresa la ruta que deseas organizar: " 
-read -r ruta
-if [ ! -d $ruta ]; then 
-    echo "El dato proporcionado no es una ruta."
-    exit 1 
-else
-    echo "creando carpetas..."
-    mkdir -p "$ruta/Documentos"
-    mkdir -p "$ruta/Imágenes"
-    mkdir -p "$ruta/Videos"
-    mkdir -p "$ruta/Otros"
-fi
-
+ruta="/home/lissandro/Descargas"
+echo "creando carpetas..."
+mkdir -p "$ruta/Documentos"
+mkdir -p "$ruta/Imágenes"
+mkdir -p "$ruta/Videos"
+mkdir -p "$ruta/Otros"
 # Crear directorios de forma segura
 
 

@@ -1,0 +1,12 @@
+nombre:rol:edad
+ana:admin:25
+pedro:user:30
+lucia:user:22
+marco:admin:28
+Luis:admin:21
+Eduardo:ceo:24
+William:admin:21
+Yamilet:admin:21
+Sabina:User:20
+Lissandro:jefe:21
+Ashley:Secretaria:40
